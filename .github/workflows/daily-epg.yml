@@ -35,6 +35,7 @@ jobs:
 
       - name: Clone iptv-org/epg (public EPG grabber)
         run: |
+          rm -rf vendor/epg
           git clone --depth 1 https://github.com/iptv-org/epg.git vendor/epg
           cd vendor/epg && npm ci
 
