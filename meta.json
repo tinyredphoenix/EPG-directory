@@ -1,91 +1,91 @@
 {
-  "generated_at": "2026-06-28T14:05:18.772Z",
-  "window_hours": 24,
+  "generated_at": "2026-06-28T19:15:05.071Z",
+  "window_hours": 36,
   "timezone": "+0530",
   "channels": 251,
   "channels_with_programmes": 198,
-  "programmes": 1439,
+  "programmes": 6499,
   "lang": "hi",
   "top_channels": [
     {
       "id": "Sony Yay",
-      "count": 23
-    },
-    {
-      "id": "Super Hungama",
-      "count": 20
-    },
-    {
-      "id": "Star Plus",
-      "count": 18
-    },
-    {
-      "id": "Star Plus HD",
-      "count": 18
-    },
-    {
-      "id": "Zee TV",
-      "count": 18
-    },
-    {
-      "id": "Zee TV HD",
-      "count": 18
+      "count": 112
     },
     {
       "id": "TLC HD World",
-      "count": 16
+      "count": 74
     },
     {
-      "id": "Aastha",
-      "count": 14
+      "id": "Star Sports 3 HD",
+      "count": 63
     },
     {
-      "id": "Sanskar",
-      "count": 14
+      "id": "Star Sports 3",
+      "count": 63
     },
     {
       "id": "Sony Pal",
-      "count": 14
+      "count": 62
     },
     {
       "id": "Discovery Kids",
-      "count": 14
+      "count": 62
+    },
+    {
+      "id": "Star Sports 1 Hindi HD",
+      "count": 59
+    },
+    {
+      "id": "Star Sports 2 Hindi HD",
+      "count": 59
     },
     {
       "id": "Paras tv",
-      "count": 13
+      "count": 58
     },
     {
       "id": "Paras TV",
-      "count": 13
+      "count": 58
     },
     {
       "id": "Paras Gold One",
-      "count": 13
+      "count": 58
     },
     {
-      "id": "Colors HD",
-      "count": 13
+      "id": "TV9 Bharatvarsh",
+      "count": 56
+    },
+    {
+      "id": "EPIC TV",
+      "count": 55
+    },
+    {
+      "id": "EPIC",
+      "count": 55
+    },
+    {
+      "id": "Epic TV",
+      "count": 55
+    },
+    {
+      "id": "CNBC Awaaz",
+      "count": 55
+    },
+    {
+      "id": "Zee News",
+      "count": 54
+    },
+    {
+      "id": "Zee Zest",
+      "count": 54
+    },
+    {
+      "id": "Zee Zest HD",
+      "count": 54
     },
     {
       "id": "ABP Majha",
-      "count": 12
-    },
-    {
-      "id": "Sony Ten 5 HD",
-      "count": 12
-    },
-    {
-      "id": "9XM",
-      "count": 11
-    },
-    {
-      "id": "Zee Business",
-      "count": 11
-    },
-    {
-      "id": "Zee Bharat",
-      "count": 11
+      "count": 53
     }
   ]
 }
