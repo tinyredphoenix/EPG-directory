@@ -108,7 +108,8 @@ function targetsForRawChannel(ch) {
 }
 
 const outChannels = new Map();
-const outProgrammes = [];
+/** Dedupe key → programme XML (tataplay + dishtv often emit identical slots). */
+const programmeDedupe = new Map();
 const stats = {};
 
 for (const file of rawFiles) {
@@ -136,8 +137,11 @@ for (const file of rawFiles) {
         outChannels.set(id, `<channel id="${escapeXml(id)}">\n${dn}\n</channel>`);
       }
       const prog = shifted.replace(/channel="[^"]*"/, `channel="${escapeXml(id)}"`);
-      outProgrammes.push(prog);
-      stats[id] = (stats[id] || 0) + 1;
+      const dedupeKey = `${id}|${start || ''}|${stop || ''}`;
+      if (!programmeDedupe.has(dedupeKey)) {
+        programmeDedupe.set(dedupeKey, prog);
+        stats[id] = (stats[id] || 0) + 1;
+      }
     }
   }
 }
@@ -152,6 +156,8 @@ for (const ch of mapping.channels) {
     stats[id] = stats[id] || 0;
   }
 }
+
+const outProgrammes = [...programmeDedupe.values()];
 
 const header = `<?xml version="1.0" encoding="UTF-8"?>\n<tv generator-info-name="EPG-directory" generator-info-url="https://github.com/tinyredphoenix/EPG-directory">\n`;
 const body = [...outChannels.values()].join('\n') + '\n' + outProgrammes.join('\n') + '\n</tv>\n';

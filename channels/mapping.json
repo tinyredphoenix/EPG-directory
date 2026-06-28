@@ -1,7 +1,7 @@
 {
   "version": 3,
   "lang": "hi",
-  "max_hours": 24,
+  "max_hours": 36,
   "timezone": "+0530",
   "channels": [
     {

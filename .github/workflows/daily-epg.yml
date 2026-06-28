@@ -48,7 +48,7 @@ jobs:
           cd vendor/epg
           npm run grab -- \
             --channels="${{ github.workspace }}/channels/grab.xml" \
-            --days=1 \
+            --days=2 \
             --output="${{ github.workspace }}/raw/{site}.xml" \
             --maxConnections=4 \
             --delay=500
