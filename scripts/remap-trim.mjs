@@ -143,11 +143,13 @@ for (const file of rawFiles) {
 }
 
 for (const ch of mapping.channels) {
-  if (!outChannels.has(ch.id)) {
-    const names = [...new Set([ch.id, ...(ch.aliases || [])])];
-    const dn = names.map((n) => `  <display-name>${escapeXml(n)}</display-name>`).join('\n');
-    outChannels.set(ch.id, `<channel id="${escapeXml(ch.id)}">\n${dn}\n</channel>`);
-    stats[ch.id] = stats[ch.id] || 0;
+  const ids = [...new Set([ch.id, ...(ch.aliases || [])])];
+  const names = ids;
+  const dn = names.map((n) => `  <display-name>${escapeXml(n)}</display-name>`).join('\n');
+  for (const id of ids) {
+    if (outChannels.has(id)) continue;
+    outChannels.set(id, `<channel id="${escapeXml(id)}">\n${dn}\n</channel>`);
+    stats[id] = stats[id] || 0;
   }
 }
 

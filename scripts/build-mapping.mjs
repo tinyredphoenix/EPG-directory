@@ -17,11 +17,11 @@ const TARGETS = [
   'Star Plus HD', 'Star Plus', 'Star Bharat HD', 'Star Bharat', 'Star Utsav HD', 'Star Utsav',
   'Star Gold HD', 'Star Gold', 'Star Gold 2 HD', 'Star Gold 2', 'Star Gold Select HD', 'Star Gold Thrills',
   'Colors HD', 'Colors', 'Colors Rishtey', 'Colors Cineplex HD', 'Colors Super', 'Colors Bangla HD',
-  'Sony HD', 'SET HD', 'SAB HD', 'Sony SAB HD', 'Sony Max HD', 'Sony Max 2', 'Sony Pix HD', 'Sony Pal',
+  'Sony HD', 'SET HD', 'SAB HD', 'Sony SAB HD', 'Sony Max HD', 'Sony Max 1', 'Sony Max One', 'Sony Max 2', 'Sony Pix HD', 'Sony Pal',
   'Sony Wah', 'Sony Marathi', 'SET HD', 'Sony BBC Earth HD',
-  'Zee TV HD', 'Zee TV', 'Zee Cinema HD', 'Zee Cinema', 'Zee Anmol',
+  'Zee TV HD', 'Zee TV', 'Zee Cinema HD', 'Zee Cinema', 'Zee Anmol', 'Zee Bharat', 'Zee Bharat HD',
   'Zee Classic', 'Zee Classic HD', 'Zee Bollywood', 'Zee Cafe', 'Zee Anmol Cinema',
-  '&tv HD', 'And TV HD', 'And TV', 'And Pictures HD', '&Pictures HD', 'And Xplor HD',
+  '&tv HD', 'And TV HD', 'And TV', 'And Pictures HD', '&Pictures HD', 'And Xplor HD', 'And Explorer HD',
   '&flix', '&xplor HD', 'Rishtey', 'Big Magic', 'Dangal', 'Enterr 10', 'Bhojpuri Cinema',
   'DD National HD', 'DD National', 'DD Bharati', 'DD Kisan', 'DD News', 'DD Sports', 'DD India',
   'Aaj Tak HD', 'Aaj Tak', 'ABP News India', 'ABP News', 'ABP Ananda', 'ABP Ganga', 'ABP Majha', 'ABP Asmita',
@@ -51,7 +51,36 @@ const TARGETS = [
   'News18 Rajasthan', 'News18 UP', 'News18 MP', 'News18 Bihar', 'News18 Punjab Haryana',
   'Zee Rajasthan', 'Zee UP UK', 'Zee Punjab Haryana', 'Zee 24 Taas', 'Zee 24 Kalak',
   'Sun TV HD', 'Sun Music HD', 'KTV HD', 'Udaya HD', 'Gemini TV HD',
+  'Super Hungama', 'EPIC Kids', 'EPIC Music', 'Nick Jr', 'Sonic', 'Discovery Turbo',
+  'History TV18', 'Nat Geo Wild HD', 'Animal Planet', 'TLC HD World', 'Living Foodz',
+  'R Bharat', 'REPUBLIC TV', 'R Bangla', 'News18 Bangla', 'News18 Tamil', 'News18 Kannada',
+  'Star Sports 3', 'Star Sports 4', 'DD Sports HD', 'Eurosport', '1 Sports',
+  'Zee Punjab Haryana', 'Zee UP UK', 'Zee 24 Taas', 'Zee 24 Kalak', 'Zee Rajasthan',
+  'ABP Asmita', 'ABP Ganga', 'TV9 Bharatvarsh', 'Good News Today', 'India News',
+  'Star Utsav HD', 'Star Gold Select', 'Star Gold Thrills', 'Colors Super', 'Colors Rishtey',
+  'Zee Action', 'Zee Cafe HD', 'Zee Anmol Cinema', 'MN+ HD', 'MNX HD', 'Romedy Now',
+  'Star Movies Select HD', 'Star World', 'Comedy Central', 'AXN', 'Sony BBC Earth',
+  'MTV Beats', '9XM', 'B4U Kadak', 'Mastiii', 'Zoom', 'Fashion TV', 'Wild Earth',
+  'Unite8 Sports 2 HD', 'Sports18 1', 'Sports18 Khel', 'DD Kisan', 'DD Bharati',
+  'Sansad TV', 'DD India', 'Wion', 'Mirror Now', 'CNBC TV18', 'ET Now',
 ];
+
+/** Extra playlist spellings → same EPG row (programmes duplicated to each). */
+const ALIASES = {
+  'And Xplor HD': ['&xplor HD', '&Xplor HD', 'And Explorer HD'],
+  'Disney Channel': ['Disney Channel HD', 'Disney'],
+  'EPIC TV': ['EPIC', 'Epic TV'],
+  'Republic Bharat': ['R Bharat', 'Republic Bharat HD'],
+  'Republic TV': ['REPUBLIC TV'],
+  'Sony Max HD': ['SONY MAX HD', 'Sony Max'],
+  'Sony Max 1': ['Sony Max One', 'SONY MAX 1'],
+  'Zee Bharat': ['Zee Bharat HD'],
+  'Hungama': ['Super Hungama'],
+  'Paras tv': ['Paras TV', 'Paras Gold One'],
+  '&tv HD': ['And TV HD'],
+  'SET HD': ['Sony HD'],
+  'SAB HD': ['Sony SAB HD'],
+};
 
 const MANUAL = {
   'Star Plus HD': [{ site: 'tataplay.com', site_id: '8' }, { site: 'dishtv.in', site_id: '143832' }],
@@ -67,7 +96,9 @@ const MANUAL = {
   'Sony HD': [{ site: 'tataplay.com', site_id: '15' }, { site: 'jiotv.com', site_id: '291' }],
   'SAB HD': [{ site: 'tataplay.com', site_id: '48' }, { site: 'jiotv.com', site_id: '471' }],
   'Sony SAB HD': [{ site: 'tataplay.com', site_id: '48' }, { site: 'jiotv.com', site_id: '471' }],
-  'Sony Max HD': [{ site: 'jiotv.com', site_id: '476' }, { site: 'tataplay.com', site_id: '558' }],
+  'Sony Max HD': [{ site: 'tataplay.com', site_id: '80', name: 'SONY MAX HD' }, { site: 'jiotv.com', site_id: '476' }],
+  'Sony Max 1': [{ site: 'tataplay.com', site_id: '1717', name: 'SONY MAX 1' }],
+  'Sony Max One': [{ site: 'tataplay.com', site_id: '1717', name: 'SONY MAX 1' }],
   'Sony Pix HD': [{ site: 'tataplay.com', site_id: '560' }],
   'Sony Ten 5 HD': [{ site: 'jiotv.com', site_id: '155' }],
   'Sony Ten 1 HD': [{ site: 'jiotv.com', site_id: '162' }],
@@ -76,8 +107,12 @@ const MANUAL = {
   'Sony Sports Ten 2 HD': [{ site: 'jiotv.com', site_id: '891' }],
   'Sony Ten 3 HD Hindi': [{ site: 'jiotv.com', site_id: '892' }],
   'Sony Sports Ten 3 Hindi HD': [{ site: 'jiotv.com', site_id: '892' }],
-  'Republic Bharat': [{ site: 'jiotv.com', site_id: '1403' }],
-  'Republic TV': [{ site: 'jiotv.com', site_id: '858' }],
+  'Republic Bharat': [{ site: 'tataplay.com', site_id: '696', name: 'R Bharat' }, { site: 'jiotv.com', site_id: '1403' }],
+  'R Bharat': [{ site: 'tataplay.com', site_id: '696', name: 'R Bharat' }],
+  'Republic TV': [{ site: 'tataplay.com', site_id: '72', name: 'REPUBLIC TV' }, { site: 'jiotv.com', site_id: '858' }],
+  'REPUBLIC TV': [{ site: 'tataplay.com', site_id: '72', name: 'REPUBLIC TV' }],
+  'Zee Bharat': [{ site: 'tataplay.com', site_id: '514' }, { site: 'jiotv.com', site_id: '652' }],
+  'Zee Bharat HD': [{ site: 'tataplay.com', site_id: '514' }, { site: 'jiotv.com', site_id: '652' }],
   'Aaj Tak HD': [{ site: 'jiotv.com', site_id: '173' }],
   'Aaj Tak': [{ site: 'jiotv.com', site_id: '173' }],
   'ABP News India': [{ site: 'jiotv.com', site_id: '177' }],
@@ -86,19 +121,20 @@ const MANUAL = {
   'News 18 India': [{ site: 'jiotv.com', site_id: '231' }],
   'News18 India': [{ site: 'jiotv.com', site_id: '231' }],
   'Colors Cineplex HD': [{ site: 'jiotv.com', site_id: '1477' }],
-  'EPIC TV': [{ site: 'jiotv.com', site_id: '481' }],
+  'EPIC TV': [{ site: 'tataplay.com', site_id: '126', name: 'EPIC' }, { site: 'jiotv.com', site_id: '481' }],
   'Travelxp HD Hindi': [{ site: 'jiotv.com', site_id: '562' }],
   'Travelxp HD': [{ site: 'jiotv.com', site_id: '164' }],
-  'Disney Channel': [{ site: 'jiotv.com', site_id: '816' }],
-  'Hungama': [{ site: 'jiotv.com', site_id: '815' }],
-  'Cartoon Network': [{ site: 'jiotv.com', site_id: '816' }],
+  'Disney Channel': [{ site: 'tataplay.com', site_id: '1066', name: 'Disney Channel HD' }, { site: 'tataplay.com', site_id: '114', name: 'Disney' }],
+  'Hungama': [{ site: 'tataplay.com', site_id: '345' }],
+  'Super Hungama': [{ site: 'tataplay.com', site_id: '587', name: 'Super Hungama' }],
+  'Cartoon Network': [{ site: 'jiotv.com', site_id: '816', name: 'Cartoon Network Hindi' }],
   'Pogo': [{ site: 'jiotv.com', site_id: '559' }],
   'Nick': [{ site: 'jiotv.com', site_id: '545' }],
   'Rishtey': [{ site: 'jiotv.com', site_id: '279' }],
   'Sony Wah': [{ site: 'jiotv.com', site_id: '1393' }],
   'DD National HD': [{ site: 'jiotv.com', site_id: '202' }],
   'DD National': [{ site: 'jiotv.com', site_id: '202' }],
-  'Paras tv': [{ site: 'jiotv.com', site_id: '602' }],
+  'Paras tv': [{ site: 'jiotv.com', site_id: '602' }, { site: 'dishtv.in', site_id: '143642', name: 'Paras Gold One' }],
   'B4U Music': [{ site: 'jiotv.com', site_id: '183' }],
   'Star Sports 1 HD': [{ site: 'tataplay.com', site_id: '6' }],
   'Star Sports 1 HD Hindi': [{ site: 'tataplay.com', site_id: '7' }],
@@ -109,7 +145,9 @@ const MANUAL = {
   'And Pictures HD': [{ site: 'tataplay.com', site_id: '561' }],
   'And TV HD': [{ site: 'tataplay.com', site_id: '40', name: '&tv HD' }],
   '&tv HD': [{ site: 'tataplay.com', site_id: '40', name: '&tv HD' }],
-  'And Xplor HD': [{ site: 'tataplay.com', site_id: '563' }],
+  'And Xplor HD': [{ site: 'tataplay.com', site_id: '1183', name: '&Xplor HD' }],
+  '&xplor HD': [{ site: 'tataplay.com', site_id: '1183', name: '&Xplor HD' }],
+  'And Explorer HD': [{ site: 'tataplay.com', site_id: '1183', name: '&Xplor HD' }],
   'Star Utsav': [{ site: 'tataplay.com', site_id: '551' }],
   'Zee Cinema': [{ site: 'tataplay.com', site_id: '558' }],
   'Zee Anmol': [{ site: 'tataplay.com', site_id: '523', name: 'Anmol TV' }],
@@ -190,7 +228,7 @@ async function main() {
     if (seen.has(t)) continue;
     seen.add(t);
     targets.push(t);
-    if (targets.length >= 200) break;
+    if (targets.length >= 300) break;
   }
 
   const channels = [];
@@ -218,12 +256,13 @@ async function main() {
       seenKey.add(key);
       deduped.push(s);
     }
-    channels.push({ id, aliases: [id], sources: deduped });
+    const aliases = [...new Set([id, ...(ALIASES[id] || [])])];
+    channels.push({ id, aliases, sources: deduped });
   }
 
-  const out = { version: 2, lang: 'hi', max_hours: 24, timezone: '+0530', channels };
+  const out = { version: 3, lang: 'hi', max_hours: 24, timezone: '+0530', channels };
   fs.writeFileSync(path.join(root, 'channels/mapping.json'), `${JSON.stringify(out, null, 2)}\n`);
-  console.log(`mapping.json: ${channels.length} channels (target cap 200)`);
+  console.log(`mapping.json: ${channels.length} channels (target cap 300)`);
 }
 
 main();

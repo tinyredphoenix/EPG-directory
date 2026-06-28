@@ -3,7 +3,7 @@
 Daily **Hindi XMLTV** TV guide for IPTV players.
 
 - **Public EPG sources only** — [iptv-org/epg](https://github.com/iptv-org/epg) (Tata Play, Dish TV, JioTV, Airtel Xstream)
-- **~200 Hindi channels** — GEC, news, sports, kids, lifestyle
+- **~300 Hindi channels** — GEC, news, sports, kids, lifestyle
 - **24-hour window** — small file size
 - **Fully automatic** — builds every morning, no manual steps
 
