@@ -1,90 +1,90 @@
 {
-  "generated_at": "2026-06-28T13:41:33.603Z",
+  "generated_at": "2026-06-28T14:05:18.772Z",
   "window_hours": 24,
   "timezone": "+0530",
-  "channels": 200,
-  "channels_with_programmes": 144,
-  "programmes": 1125,
+  "channels": 251,
+  "channels_with_programmes": 198,
+  "programmes": 1439,
   "lang": "hi",
   "top_channels": [
     {
       "id": "Sony Yay",
-      "count": 24
+      "count": 23
+    },
+    {
+      "id": "Super Hungama",
+      "count": 20
     },
     {
       "id": "Star Plus",
-      "count": 20
+      "count": 18
     },
     {
       "id": "Star Plus HD",
-      "count": 20
+      "count": 18
     },
     {
       "id": "Zee TV",
-      "count": 20
+      "count": 18
     },
     {
       "id": "Zee TV HD",
-      "count": 20
+      "count": 18
     },
     {
-      "id": "Colors HD",
-      "count": 15
+      "id": "TLC HD World",
+      "count": 16
     },
     {
       "id": "Aastha",
-      "count": 15
+      "count": 14
     },
     {
       "id": "Sanskar",
-      "count": 15
+      "count": 14
     },
     {
       "id": "Sony Pal",
-      "count": 15
+      "count": 14
     },
     {
       "id": "Discovery Kids",
-      "count": 15
+      "count": 14
+    },
+    {
+      "id": "Paras tv",
+      "count": 13
+    },
+    {
+      "id": "Paras TV",
+      "count": 13
+    },
+    {
+      "id": "Paras Gold One",
+      "count": 13
+    },
+    {
+      "id": "Colors HD",
+      "count": 13
     },
     {
       "id": "ABP Majha",
-      "count": 14
-    },
-    {
-      "id": "Sony Ten 5 HD",
-      "count": 14
-    },
-    {
-      "id": "Star Bharat HD",
       "count": 12
     },
     {
-      "id": "Star Bharat",
+      "id": "Sony Ten 5 HD",
       "count": 12
     },
     {
       "id": "9XM",
-      "count": 12
-    },
-    {
-      "id": "Zee Business",
-      "count": 12
-    },
-    {
-      "id": "Sudarshan News",
-      "count": 12
-    },
-    {
-      "id": "FYI TV18",
-      "count": 12
-    },
-    {
-      "id": "CNBC Bajar",
       "count": 11
     },
     {
-      "id": "Star Sports Select 2 HD",
+      "id": "Zee Business",
+      "count": 11
+    },
+    {
+      "id": "Zee Bharat",
       "count": 11
     }
   ]
