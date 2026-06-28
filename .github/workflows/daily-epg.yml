@@ -1,0 +1,64 @@
+name: Daily Hindi EPG
+
+on:
+  schedule:
+    # 06:00 IST (00:30 UTC)
+    - cron: '30 0 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: epg-pages
+  cancel-in-progress: false
+
+jobs:
+  build-and-publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout EPG-directory
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Cache iptv-org/epg dependencies
+        uses: actions/cache@v4
+        with:
+          path: vendor/epg/node_modules
+          key: epg-${{ hashFiles('vendor/epg/package-lock.json') }}
+
+      - name: Clone iptv-org/epg (public EPG grabber)
+        run: |
+          git clone --depth 1 https://github.com/iptv-org/epg.git vendor/epg
+          cd vendor/epg && npm ci
+
+      - name: Build grab channel list
+        run: node scripts/generate-grab-xml.mjs
+
+      - name: Grab 24h EPG from public sources
+        run: |
+          mkdir -p raw
+          cd vendor/epg
+          npm run grab -- \
+            --channels="${{ github.workspace }}/channels/grab.xml" \
+            --days=1 \
+            --output="${{ github.workspace }}/raw/{site}.xml" \
+            --maxConnections=4 \
+            --delay=500
+
+      - name: Remap to playlist names and trim 24h
+        run: node scripts/remap-trim.mjs "${{ github.workspace }}/raw"
+
+      - name: Publish to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./out
+          user_name: github-actions[bot]
+          user_email: github-actions[bot]@users.noreply.github.com

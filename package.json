@@ -1,0 +1,13 @@
+{
+  "name": "epg-directory",
+  "private": true,
+  "type": "module",
+  "description": "Daily Hindi XMLTV EPG for IPTV players — standalone, no app coupling",
+  "scripts": {
+    "generate-xml": "node scripts/generate-grab-xml.mjs",
+    "remap": "node scripts/remap-trim.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
