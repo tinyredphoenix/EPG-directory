@@ -1,7 +1,8 @@
 {
-  "version": 1,
+  "version": 2,
   "lang": "hi",
   "max_hours": 24,
+  "timezone": "+0530",
   "channels": [
     {
       "id": "Star Plus HD",
@@ -16,10 +17,22 @@
         {
           "site": "dishtv.in",
           "site_id": "143832"
+        }
+      ]
+    },
+    {
+      "id": "Star Plus",
+      "aliases": [
+        "Star Plus"
+      ],
+      "sources": [
+        {
+          "site": "tataplay.com",
+          "site_id": "550"
         },
         {
-          "site": "airtelxstream.in",
-          "site_id": "LIVETV_LIVETVCHANNEL_STAR_PLUS_HD"
+          "site": "dishtv.in",
+          "site_id": "143831"
         }
       ]
     },
@@ -36,10 +49,125 @@
         {
           "site": "dishtv.in",
           "site_id": "159101"
+        }
+      ]
+    },
+    {
+      "id": "Star Bharat",
+      "aliases": [
+        "Star Bharat"
+      ],
+      "sources": [
+        {
+          "site": "tataplay.com",
+          "site_id": "86"
         },
         {
-          "site": "airtelxstream.in",
-          "site_id": "LIVETV_LIVETVCHANNEL_STAR_BHARAT_HD"
+          "site": "dishtv.in",
+          "site_id": "159130"
+        }
+      ]
+    },
+    {
+      "id": "Star Utsav HD",
+      "aliases": [
+        "Star Utsav HD"
+      ],
+      "sources": [
+        {
+          "site": "tataplay.com",
+          "site_id": "551",
+          "name": "STAR Utsav"
+        }
+      ]
+    },
+    {
+      "id": "Star Utsav",
+      "aliases": [
+        "Star Utsav"
+      ],
+      "sources": [
+        {
+          "site": "tataplay.com",
+          "site_id": "551"
+        }
+      ]
+    },
+    {
+      "id": "Star Gold HD",
+      "aliases": [
+        "Star Gold HD"
+      ],
+      "sources": [
+        {
+          "site": "tataplay.com",
+          "site_id": "632",
+          "name": "Star GOLD HD"
+        }
+      ]
+    },
+    {
+      "id": "Star Gold",
+      "aliases": [
+        "Star Gold"
+      ],
+      "sources": [
+        {
+          "site": "tataplay.com",
+          "site_id": "164",
+          "name": "STAR Gold"
+        }
+      ]
+    },
+    {
+      "id": "Star Gold 2 HD",
+      "aliases": [
+        "Star Gold 2 HD"
+      ],
+      "sources": [
+        {
+          "site": "tataplay.com",
+          "site_id": "1072",
+          "name": "Star Gold 2 HD"
+        }
+      ]
+    },
+    {
+      "id": "Star Gold 2",
+      "aliases": [
+        "Star Gold 2"
+      ],
+      "sources": [
+        {
+          "site": "tataplay.com",
+          "site_id": "163",
+          "name": "Star Gold 2"
+        }
+      ]
+    },
+    {
+      "id": "Star Gold Select HD",
+      "aliases": [
+        "Star Gold Select HD"
+      ],
+      "sources": [
+        {
+          "site": "tataplay.com",
+          "site_id": "595",
+          "name": "Star Gold Select HD"
+        }
+      ]
+    },
+    {
+      "id": "Star Gold Thrills",
+      "aliases": [
+        "Star Gold Thrills"
+      ],
+      "sources": [
+        {
+          "site": "tataplay.com",
+          "site_id": "494",
+          "name": "Star Gold Thrills"
         }
       ]
     },
@@ -64,9 +192,89 @@
       ]
     },
     {
+      "id": "Colors",
+      "aliases": [
+        "Colors"
+      ],
+      "sources": [
+        {
+          "site": "tataplay.com",
+          "site_id": "543",
+          "name": "Colors"
+        }
+      ]
+    },
+    {
+      "id": "Colors Rishtey",
+      "aliases": [
+        "Colors Rishtey"
+      ],
+      "sources": [
+        {
+          "site": "tataplay.com",
+          "site_id": "438",
+          "name": "Colors Rishtey"
+        }
+      ]
+    },
+    {
+      "id": "Colors Cineplex HD",
+      "aliases": [
+        "Colors Cineplex HD"
+      ],
+      "sources": [
+        {
+          "site": "jiotv.com",
+          "site_id": "1477"
+        }
+      ]
+    },
+    {
+      "id": "Colors Super",
+      "aliases": [
+        "Colors Super"
+      ],
+      "sources": [
+        {
+          "site": "tataplay.com",
+          "site_id": "533",
+          "name": "Colors SUPER"
+        }
+      ]
+    },
+    {
+      "id": "Colors Bangla HD",
+      "aliases": [
+        "Colors Bangla HD"
+      ],
+      "sources": [
+        {
+          "site": "tataplay.com",
+          "site_id": "305",
+          "name": "Colors Bangla HD"
+        }
+      ]
+    },
+    {
       "id": "Sony HD",
       "aliases": [
         "Sony HD"
+      ],
+      "sources": [
+        {
+          "site": "tataplay.com",
+          "site_id": "15"
+        },
+        {
+          "site": "jiotv.com",
+          "site_id": "291"
+        }
+      ]
+    },
+    {
+      "id": "SET HD",
+      "aliases": [
+        "SET HD"
       ],
       "sources": [
         {
@@ -90,93 +298,24 @@
           "site_id": "48"
         },
         {
-          "site": "dishtv.in",
-          "site_id": "159099"
-        },
-        {
           "site": "jiotv.com",
           "site_id": "471"
         }
       ]
     },
     {
-      "id": "Zee TV HD",
+      "id": "Sony SAB HD",
       "aliases": [
-        "Zee TV HD"
+        "Sony SAB HD"
       ],
       "sources": [
         {
           "site": "tataplay.com",
-          "site_id": "63"
+          "site_id": "48"
         },
         {
-          "site": "dishtv.in",
-          "site_id": "144479"
-        }
-      ]
-    },
-    {
-      "id": "Zee Cinema HD",
-      "aliases": [
-        "Zee Cinema HD"
-      ],
-      "sources": [
-        {
-          "site": "tataplay.com",
-          "site_id": "503",
-          "name": "Zee Cinema HD"
-        }
-      ]
-    },
-    {
-      "id": "And TV HD",
-      "aliases": [
-        "And TV HD"
-      ],
-      "sources": [
-        {
           "site": "jiotv.com",
-          "site_id": "520",
-          "name": "Sansad TV HD"
-        }
-      ]
-    },
-    {
-      "id": "Star Utsav",
-      "aliases": [
-        "Star Utsav"
-      ],
-      "sources": [
-        {
-          "site": "tataplay.com",
-          "site_id": "551",
-          "name": "STAR Utsav"
-        }
-      ]
-    },
-    {
-      "id": "Star Gold",
-      "aliases": [
-        "Star Gold"
-      ],
-      "sources": [
-        {
-          "site": "tataplay.com",
-          "site_id": "164",
-          "name": "STAR Gold"
-        }
-      ]
-    },
-    {
-      "id": "Star Gold 2",
-      "aliases": [
-        "Star Gold 2"
-      ],
-      "sources": [
-        {
-          "site": "tataplay.com",
-          "site_id": "163",
-          "name": "Star Gold 2"
+          "site_id": "471"
         }
       ]
     },
@@ -197,6 +336,19 @@
       ]
     },
     {
+      "id": "Sony Max 2",
+      "aliases": [
+        "Sony Max 2"
+      ],
+      "sources": [
+        {
+          "site": "tataplay.com",
+          "site_id": "120",
+          "name": "SONY MAX 2"
+        }
+      ]
+    },
+    {
       "id": "Sony Pix HD",
       "aliases": [
         "Sony Pix HD"
@@ -204,149 +356,74 @@
       "sources": [
         {
           "site": "tataplay.com",
-          "site_id": "32",
-          "name": "SONY PIX HD"
+          "site_id": "560"
         }
       ]
     },
     {
-      "id": "Colors Rishtey",
+      "id": "Sony Pal",
       "aliases": [
-        "Colors Rishtey"
+        "Sony Pal"
       ],
       "sources": [
         {
           "site": "tataplay.com",
-          "site_id": "438",
-          "name": "Colors Rishtey"
+          "site_id": "554",
+          "name": "Sony Pal"
         }
       ]
     },
     {
-      "id": "Zee Anmol",
+      "id": "Sony Wah",
       "aliases": [
-        "Zee Anmol"
-      ],
-      "sources": [
-        {
-          "site": "tataplay.com",
-          "site_id": "257",
-          "name": "Zee Tamil"
-        }
-      ]
-    },
-    {
-      "id": "&Pictures HD",
-      "aliases": [
-        "&Pictures HD"
-      ],
-      "sources": [
-        {
-          "site": "tataplay.com",
-          "site_id": "267",
-          "name": "&pictures HD"
-        }
-      ]
-    },
-    {
-      "id": "Star Sports 1 HD Hindi",
-      "aliases": [
-        "Star Sports 1 HD Hindi"
-      ],
-      "sources": [
-        {
-          "site": "dishtv.in",
-          "site_id": "143838",
-          "name": "Star Sports 1 HD Hindi"
-        }
-      ]
-    },
-    {
-      "id": "Star Sports 1 HD",
-      "aliases": [
-        "Star Sports 1 HD"
-      ],
-      "sources": [
-        {
-          "site": "tataplay.com",
-          "site_id": "78",
-          "name": "Star Sports 1 HD"
-        }
-      ]
-    },
-    {
-      "id": "Sony Sports Ten 3 Hindi HD",
-      "aliases": [
-        "Sony Sports Ten 3 Hindi HD"
+        "Sony Wah"
       ],
       "sources": [
         {
           "site": "jiotv.com",
-          "site_id": "892"
+          "site_id": "1393"
         }
       ]
     },
     {
-      "id": "Sony Ten 5 HD",
+      "id": "Sony Marathi",
       "aliases": [
-        "Sony Ten 5 HD"
-      ],
-      "sources": [
-        {
-          "site": "jiotv.com",
-          "site_id": "155"
-        }
-      ]
-    },
-    {
-      "id": "Colors Cineplex HD",
-      "aliases": [
-        "Colors Cineplex HD"
-      ],
-      "sources": [
-        {
-          "site": "jiotv.com",
-          "site_id": "1477"
-        }
-      ]
-    },
-    {
-      "id": "Star Plus",
-      "aliases": [
-        "Star Plus"
+        "Sony Marathi"
       ],
       "sources": [
         {
           "site": "tataplay.com",
-          "site_id": "550"
-        },
-        {
-          "site": "dishtv.in",
-          "site_id": "143831"
-        },
-        {
-          "site": "airtelxstream.in",
-          "site_id": "LIVETV_LIVETVCHANNEL_STAR_PLUS"
+          "site_id": "658",
+          "name": "Sony Marathi"
         }
       ]
     },
     {
-      "id": "Star Bharat",
+      "id": "Sony BBC Earth HD",
       "aliases": [
-        "Star Bharat"
+        "Sony BBC Earth HD"
       ],
       "sources": [
         {
           "site": "tataplay.com",
-          "site_id": "86"
+          "site_id": "460",
+          "name": "SONY BBC Earth HD"
+        }
+      ]
+    },
+    {
+      "id": "Zee TV HD",
+      "aliases": [
+        "Zee TV HD"
+      ],
+      "sources": [
+        {
+          "site": "tataplay.com",
+          "site_id": "63"
         },
         {
           "site": "dishtv.in",
-          "site_id": "159130"
-        },
-        {
-          "site": "airtelxstream.in",
-          "site_id": "LIVETV_LIVETVCHANNEL_STAR_BHARAT"
+          "site_id": "144479"
         }
       ]
     },
@@ -367,6 +444,18 @@
       ]
     },
     {
+      "id": "Zee Cinema HD",
+      "aliases": [
+        "Zee Cinema HD"
+      ],
+      "sources": [
+        {
+          "site": "tataplay.com",
+          "site_id": "64"
+        }
+      ]
+    },
+    {
       "id": "Zee Cinema",
       "aliases": [
         "Zee Cinema"
@@ -374,8 +463,340 @@
       "sources": [
         {
           "site": "tataplay.com",
-          "site_id": "123",
-          "name": "Zee Cinema"
+          "site_id": "558"
+        }
+      ]
+    },
+    {
+      "id": "Zee Anmol",
+      "aliases": [
+        "Zee Anmol"
+      ],
+      "sources": [
+        {
+          "site": "tataplay.com",
+          "site_id": "523",
+          "name": "Anmol TV"
+        }
+      ]
+    },
+    {
+      "id": "Zee Classic",
+      "aliases": [
+        "Zee Classic"
+      ],
+      "sources": [
+        {
+          "site": "tataplay.com",
+          "site_id": "727",
+          "name": "Zee Classic"
+        }
+      ]
+    },
+    {
+      "id": "Zee Classic HD",
+      "aliases": [
+        "Zee Classic HD"
+      ],
+      "sources": [
+        {
+          "site": "dishtv.in",
+          "site_id": "144447",
+          "name": "Zee Classic"
+        }
+      ]
+    },
+    {
+      "id": "Zee Bollywood",
+      "aliases": [
+        "Zee Bollywood"
+      ],
+      "sources": [
+        {
+          "site": "tataplay.com",
+          "site_id": "175",
+          "name": "Zee Bollywood"
+        }
+      ]
+    },
+    {
+      "id": "Zee Cafe",
+      "aliases": [
+        "Zee Cafe"
+      ],
+      "sources": [
+        {
+          "site": "jiotv.com",
+          "site_id": "591",
+          "name": "E 24"
+        }
+      ]
+    },
+    {
+      "id": "Zee Anmol Cinema",
+      "aliases": [
+        "Zee Anmol Cinema"
+      ],
+      "sources": [
+        {
+          "site": "tataplay.com",
+          "site_id": "64",
+          "name": "Anmol Cinema"
+        }
+      ]
+    },
+    {
+      "id": "&tv HD",
+      "aliases": [
+        "&tv HD"
+      ],
+      "sources": [
+        {
+          "site": "tataplay.com",
+          "site_id": "40",
+          "name": "&tv HD"
+        }
+      ]
+    },
+    {
+      "id": "And TV HD",
+      "aliases": [
+        "And TV HD"
+      ],
+      "sources": [
+        {
+          "site": "tataplay.com",
+          "site_id": "40",
+          "name": "&tv HD"
+        }
+      ]
+    },
+    {
+      "id": "And TV",
+      "aliases": [
+        "And TV"
+      ],
+      "sources": [
+        {
+          "site": "tataplay.com",
+          "site_id": "805",
+          "name": "Nandighosha TV"
+        }
+      ]
+    },
+    {
+      "id": "And Pictures HD",
+      "aliases": [
+        "And Pictures HD"
+      ],
+      "sources": [
+        {
+          "site": "tataplay.com",
+          "site_id": "561"
+        }
+      ]
+    },
+    {
+      "id": "&Pictures HD",
+      "aliases": [
+        "&Pictures HD"
+      ],
+      "sources": [
+        {
+          "site": "tataplay.com",
+          "site_id": "267",
+          "name": "&pictures HD"
+        }
+      ]
+    },
+    {
+      "id": "And Xplor HD",
+      "aliases": [
+        "And Xplor HD"
+      ],
+      "sources": [
+        {
+          "site": "tataplay.com",
+          "site_id": "563"
+        }
+      ]
+    },
+    {
+      "id": "&flix",
+      "aliases": [
+        "&flix"
+      ],
+      "sources": [
+        {
+          "site": "airtelxstream.in",
+          "site_id": "RUNNTV_LIVECHANNEL_40",
+          "name": "NH BollyFlix"
+        }
+      ]
+    },
+    {
+      "id": "&xplor HD",
+      "aliases": [
+        "&xplor HD"
+      ],
+      "sources": [
+        {
+          "site": "tataplay.com",
+          "site_id": "1183",
+          "name": "&amp;Xplor HD"
+        }
+      ]
+    },
+    {
+      "id": "Rishtey",
+      "aliases": [
+        "Rishtey"
+      ],
+      "sources": [
+        {
+          "site": "jiotv.com",
+          "site_id": "279"
+        }
+      ]
+    },
+    {
+      "id": "Big Magic",
+      "aliases": [
+        "Big Magic"
+      ],
+      "sources": [
+        {
+          "site": "tataplay.com",
+          "site_id": "297",
+          "name": "Big Magic"
+        }
+      ]
+    },
+    {
+      "id": "Dangal",
+      "aliases": [
+        "Dangal"
+      ],
+      "sources": [
+        {
+          "site": "tataplay.com",
+          "site_id": "51",
+          "name": "Dangal"
+        }
+      ]
+    },
+    {
+      "id": "Enterr 10",
+      "aliases": [
+        "Enterr 10"
+      ],
+      "sources": [
+        {
+          "site": "jiotv.com",
+          "site_id": "485",
+          "name": "Enterr 10"
+        }
+      ]
+    },
+    {
+      "id": "Bhojpuri Cinema",
+      "aliases": [
+        "Bhojpuri Cinema"
+      ],
+      "sources": [
+        {
+          "site": "tataplay.com",
+          "site_id": "181",
+          "name": "Bhojpuri Cinema"
+        }
+      ]
+    },
+    {
+      "id": "DD National HD",
+      "aliases": [
+        "DD National HD"
+      ],
+      "sources": [
+        {
+          "site": "jiotv.com",
+          "site_id": "202"
+        }
+      ]
+    },
+    {
+      "id": "DD National",
+      "aliases": [
+        "DD National"
+      ],
+      "sources": [
+        {
+          "site": "jiotv.com",
+          "site_id": "202"
+        }
+      ]
+    },
+    {
+      "id": "DD Bharati",
+      "aliases": [
+        "DD Bharati"
+      ],
+      "sources": [
+        {
+          "site": "tataplay.com",
+          "site_id": "316",
+          "name": "DD Bharati"
+        }
+      ]
+    },
+    {
+      "id": "DD Kisan",
+      "aliases": [
+        "DD Kisan"
+      ],
+      "sources": [
+        {
+          "site": "tataplay.com",
+          "site_id": "326",
+          "name": "DD Kisan"
+        }
+      ]
+    },
+    {
+      "id": "DD News",
+      "aliases": [
+        "DD News"
+      ],
+      "sources": [
+        {
+          "site": "tataplay.com",
+          "site_id": "322",
+          "name": "DD News"
+        }
+      ]
+    },
+    {
+      "id": "DD Sports",
+      "aliases": [
+        "DD Sports"
+      ],
+      "sources": [
+        {
+          "site": "tataplay.com",
+          "site_id": "223",
+          "name": "DD Sports"
+        }
+      ]
+    },
+    {
+      "id": "DD India",
+      "aliases": [
+        "DD India"
+      ],
+      "sources": [
+        {
+          "site": "tataplay.com",
+          "site_id": "99",
+          "name": "D Tamil"
         }
       ]
     },
@@ -383,6 +804,18 @@
       "id": "Aaj Tak HD",
       "aliases": [
         "Aaj Tak HD"
+      ],
+      "sources": [
+        {
+          "site": "jiotv.com",
+          "site_id": "173"
+        }
+      ]
+    },
+    {
+      "id": "Aaj Tak",
+      "aliases": [
+        "Aaj Tak"
       ],
       "sources": [
         {
@@ -404,6 +837,71 @@
       ]
     },
     {
+      "id": "ABP News",
+      "aliases": [
+        "ABP News"
+      ],
+      "sources": [
+        {
+          "site": "tataplay.com",
+          "site_id": "177",
+          "name": "ABP News"
+        }
+      ]
+    },
+    {
+      "id": "ABP Ananda",
+      "aliases": [
+        "ABP Ananda"
+      ],
+      "sources": [
+        {
+          "site": "tataplay.com",
+          "site_id": "102",
+          "name": "ABP Ananda"
+        }
+      ]
+    },
+    {
+      "id": "ABP Ganga",
+      "aliases": [
+        "ABP Ganga"
+      ],
+      "sources": [
+        {
+          "site": "jiotv.com",
+          "site_id": "1205",
+          "name": "ABP Ganga"
+        }
+      ]
+    },
+    {
+      "id": "ABP Majha",
+      "aliases": [
+        "ABP Majha"
+      ],
+      "sources": [
+        {
+          "site": "tataplay.com",
+          "site_id": "155",
+          "name": "ABP Majha"
+        }
+      ]
+    },
+    {
+      "id": "ABP Asmita",
+      "aliases": [
+        "ABP Asmita"
+      ],
+      "sources": [
+        {
+          "site": "tataplay.com",
+          "site_id": "73",
+          "name": "ABP Asmita"
+        }
+      ]
+    },
+    {
       "id": "Zee News",
       "aliases": [
         "Zee News"
@@ -412,6 +910,18 @@
         {
           "site": "jiotv.com",
           "site_id": "504"
+        }
+      ]
+    },
+    {
+      "id": "Zee News HD",
+      "aliases": [
+        "Zee News HD"
+      ],
+      "sources": [
+        {
+          "site": "tataplay.com",
+          "site_id": "1497"
         }
       ]
     },
@@ -428,6 +938,19 @@
       ]
     },
     {
+      "id": "India TV HD",
+      "aliases": [
+        "India TV HD"
+      ],
+      "sources": [
+        {
+          "site": "tataplay.com",
+          "site_id": "104",
+          "name": "India TV"
+        }
+      ]
+    },
+    {
       "id": "News 18 India",
       "aliases": [
         "News 18 India"
@@ -436,6 +959,31 @@
         {
           "site": "jiotv.com",
           "site_id": "231"
+        }
+      ]
+    },
+    {
+      "id": "News18 India",
+      "aliases": [
+        "News18 India"
+      ],
+      "sources": [
+        {
+          "site": "jiotv.com",
+          "site_id": "231"
+        }
+      ]
+    },
+    {
+      "id": "News18 Lokmat",
+      "aliases": [
+        "News18 Lokmat"
+      ],
+      "sources": [
+        {
+          "site": "tataplay.com",
+          "site_id": "1789",
+          "name": "KM News"
         }
       ]
     },
@@ -452,238 +1000,27 @@
       ]
     },
     {
-      "id": "DD National HD",
+      "id": "Republic TV",
       "aliases": [
-        "DD National HD"
+        "Republic TV"
       ],
       "sources": [
         {
           "site": "jiotv.com",
-          "site_id": "202"
+          "site_id": "858"
         }
       ]
     },
     {
-      "id": "Star Sports 2",
+      "id": "Republic Bangla",
       "aliases": [
-        "Star Sports 2"
+        "Republic Bangla"
       ],
       "sources": [
         {
           "site": "tataplay.com",
-          "site_id": "609",
-          "name": "STAR Sports 2"
-        }
-      ]
-    },
-    {
-      "id": "Sony Sports Ten 1 HD",
-      "aliases": [
-        "Sony Sports Ten 1 HD"
-      ],
-      "sources": [
-        {
-          "site": "jiotv.com",
-          "site_id": "162"
-        }
-      ]
-    },
-    {
-      "id": "Sony Six HD",
-      "aliases": [
-        "Sony Six HD"
-      ],
-      "sources": [
-        {
-          "site": "tataplay.com",
-          "site_id": "32",
-          "name": "SONY PIX HD"
-        }
-      ]
-    },
-    {
-      "id": "Star Utsav HD",
-      "aliases": [
-        "Star Utsav HD"
-      ],
-      "sources": [
-        {
-          "site": "tataplay.com",
-          "site_id": "551",
-          "name": "STAR Utsav"
-        }
-      ]
-    },
-    {
-      "id": "Rishtey",
-      "aliases": [
-        "Rishtey"
-      ],
-      "sources": [
-        {
-          "site": "jiotv.com",
-          "site_id": "279"
-        }
-      ]
-    },
-    {
-      "id": "Sony Wah",
-      "aliases": [
-        "Sony Wah"
-      ],
-      "sources": [
-        {
-          "site": "jiotv.com",
-          "site_id": "1393"
-        }
-      ]
-    },
-    {
-      "id": "Big Magic",
-      "aliases": [
-        "Big Magic"
-      ],
-      "sources": [
-        {
-          "site": "tataplay.com",
-          "site_id": "297",
-          "name": "Big Magic"
-        }
-      ]
-    },
-    {
-      "id": "SET HD",
-      "aliases": [
-        "SET HD"
-      ],
-      "sources": [
-        {
-          "site": "tataplay.com",
-          "site_id": "15"
-        },
-        {
-          "site": "dishtv.in",
-          "site_id": "159096"
-        },
-        {
-          "site": "jiotv.com",
-          "site_id": "291"
-        }
-      ]
-    },
-    {
-      "id": "Star Gold HD",
-      "aliases": [
-        "Star Gold HD"
-      ],
-      "sources": [
-        {
-          "site": "tataplay.com",
-          "site_id": "632",
-          "name": "Star GOLD HD"
-        }
-      ]
-    },
-    {
-      "id": "Star Gold 2 HD",
-      "aliases": [
-        "Star Gold 2 HD"
-      ],
-      "sources": [
-        {
-          "site": "tataplay.com",
-          "site_id": "1072",
-          "name": "Star Gold 2 HD"
-        }
-      ]
-    },
-    {
-      "id": "Star Gold Select HD",
-      "aliases": [
-        "Star Gold Select HD"
-      ],
-      "sources": [
-        {
-          "site": "tataplay.com",
-          "site_id": "595",
-          "name": "Star Gold Select HD"
-        }
-      ]
-    },
-    {
-      "id": "Zee Classic",
-      "aliases": [
-        "Zee Classic"
-      ],
-      "sources": [
-        {
-          "site": "tataplay.com",
-          "site_id": "727",
-          "name": "Zee Classic"
-        }
-      ]
-    },
-    {
-      "id": "And Pictures HD",
-      "aliases": [
-        "And Pictures HD"
-      ],
-      "sources": [
-        {
-          "site": "tataplay.com",
-          "site_id": "267",
-          "name": "&pictures HD"
-        }
-      ]
-    },
-    {
-      "id": "Star Sports 2 Hindi HD",
-      "aliases": [
-        "Star Sports 2 Hindi HD"
-      ],
-      "sources": [
-        {
-          "site": "tataplay.com",
-          "site_id": "1033",
-          "name": "Star Sports 2 Hindi HD"
-        }
-      ]
-    },
-    {
-      "id": "Star Sports Select 2 HD",
-      "aliases": [
-        "Star Sports Select 2 HD"
-      ],
-      "sources": [
-        {
-          "site": "tataplay.com",
-          "site_id": "463",
-          "name": "Star Sports Select 2 HD"
-        }
-      ]
-    },
-    {
-      "id": "Sony Sports Ten 2 HD",
-      "aliases": [
-        "Sony Sports Ten 2 HD"
-      ],
-      "sources": [
-        {
-          "site": "jiotv.com",
-          "site_id": "891"
-        }
-      ]
-    },
-    {
-      "id": "CNN News18",
-      "aliases": [
-        "CNN News18"
-      ],
-      "sources": [
-        {
-          "site": "tataplay.com",
-          "site_id": "206",
-          "name": "CNN News18"
+          "site_id": "890",
+          "name": "Republic Bangla"
         }
       ]
     },
@@ -701,41 +1038,760 @@
       ]
     },
     {
+      "id": "Times Now Navbharat",
+      "aliases": [
+        "Times Now Navbharat"
+      ],
+      "sources": [
+        {
+          "site": "tataplay.com",
+          "site_id": "966",
+          "name": "Times Now Navbharat"
+        }
+      ]
+    },
+    {
+      "id": "India Today",
+      "aliases": [
+        "India Today"
+      ],
+      "sources": [
+        {
+          "site": "jiotv.com",
+          "site_id": "493"
+        }
+      ]
+    },
+    {
       "id": "NDTV India",
       "aliases": [
         "NDTV India"
       ],
       "sources": [
         {
-          "site": "tataplay.com",
-          "site_id": "179",
-          "name": "NDTV India"
+          "site": "jiotv.com",
+          "site_id": "258"
         }
       ]
     },
     {
-      "id": "Sony Max 2",
+      "id": "NDTV 24x7",
       "aliases": [
-        "Sony Max 2"
+        "NDTV 24x7"
       ],
       "sources": [
         {
           "site": "tataplay.com",
-          "site_id": "120",
-          "name": "SONY MAX 2"
+          "site_id": "208",
+          "name": "NDTV 24x7"
         }
       ]
     },
     {
-      "id": "Zee Anmol Cinema",
+      "id": "NDTV Profit",
       "aliases": [
-        "Zee Anmol Cinema"
+        "NDTV Profit"
       ],
       "sources": [
         {
           "site": "tataplay.com",
-          "site_id": "64",
-          "name": "Anmol Cinema"
+          "site_id": "49",
+          "name": "T News"
+        }
+      ]
+    },
+    {
+      "id": "CNN News18",
+      "aliases": [
+        "CNN News18"
+      ],
+      "sources": [
+        {
+          "site": "tataplay.com",
+          "site_id": "206",
+          "name": "CNN News18"
+        }
+      ]
+    },
+    {
+      "id": "News Nation",
+      "aliases": [
+        "News Nation"
+      ],
+      "sources": [
+        {
+          "site": "tataplay.com",
+          "site_id": "36",
+          "name": "News Nation"
+        }
+      ]
+    },
+    {
+      "id": "News24",
+      "aliases": [
+        "News24"
+      ],
+      "sources": [
+        {
+          "site": "tataplay.com",
+          "site_id": "209",
+          "name": "News 24"
+        }
+      ]
+    },
+    {
+      "id": "Good News Today",
+      "aliases": [
+        "Good News Today"
+      ],
+      "sources": [
+        {
+          "site": "tataplay.com",
+          "site_id": "278",
+          "name": "Good News Today"
+        }
+      ]
+    },
+    {
+      "id": "TV9 Bharatvarsh",
+      "aliases": [
+        "TV9 Bharatvarsh"
+      ],
+      "sources": [
+        {
+          "site": "tataplay.com",
+          "site_id": "266",
+          "name": "10 TV"
+        }
+      ]
+    },
+    {
+      "id": "TV9 Gujarati",
+      "aliases": [
+        "TV9 Gujarati"
+      ],
+      "sources": [
+        {
+          "site": "jiotv.com",
+          "site_id": "616",
+          "name": "Tv 9 Gujarat"
+        }
+      ]
+    },
+    {
+      "id": "Wion",
+      "aliases": [
+        "Wion"
+      ],
+      "sources": [
+        {
+          "site": "tataplay.com",
+          "site_id": "255",
+          "name": "WION"
+        }
+      ]
+    },
+    {
+      "id": "Mirror Now",
+      "aliases": [
+        "Mirror Now"
+      ],
+      "sources": [
+        {
+          "site": "tataplay.com",
+          "site_id": "591",
+          "name": "Mirror Now"
+        }
+      ]
+    },
+    {
+      "id": "CNBC TV18",
+      "aliases": [
+        "CNBC TV18"
+      ],
+      "sources": [
+        {
+          "site": "tataplay.com",
+          "site_id": "168",
+          "name": "CNBC TV18"
+        }
+      ]
+    },
+    {
+      "id": "CNBC Awaaz",
+      "aliases": [
+        "CNBC Awaaz"
+      ],
+      "sources": [
+        {
+          "site": "tataplay.com",
+          "site_id": "204",
+          "name": "CNBC Awaaz"
+        }
+      ]
+    },
+    {
+      "id": "CNBC Bajar",
+      "aliases": [
+        "CNBC Bajar"
+      ],
+      "sources": [
+        {
+          "site": "dishtv.in",
+          "site_id": "142742",
+          "name": "CNBC Bajar"
+        }
+      ]
+    },
+    {
+      "id": "ET Now",
+      "aliases": [
+        "ET Now"
+      ],
+      "sources": [
+        {
+          "site": "tataplay.com",
+          "site_id": "88",
+          "name": "ET NOW"
+        }
+      ]
+    },
+    {
+      "id": "ET Now Swadesh",
+      "aliases": [
+        "ET Now Swadesh"
+      ],
+      "sources": [
+        {
+          "site": "tataplay.com",
+          "site_id": "950",
+          "name": "ET Now Swadesh"
+        }
+      ]
+    },
+    {
+      "id": "Zee Business",
+      "aliases": [
+        "Zee Business"
+      ],
+      "sources": [
+        {
+          "site": "tataplay.com",
+          "site_id": "260",
+          "name": "Zee Business"
+        }
+      ]
+    },
+    {
+      "id": "India News",
+      "aliases": [
+        "India News"
+      ],
+      "sources": [
+        {
+          "site": "tataplay.com",
+          "site_id": "183",
+          "name": "India News"
+        }
+      ]
+    },
+    {
+      "id": "Sudarshan News",
+      "aliases": [
+        "Sudarshan News"
+      ],
+      "sources": [
+        {
+          "site": "tataplay.com",
+          "site_id": "475",
+          "name": "Sudarshan News"
+        }
+      ]
+    },
+    {
+      "id": "Samachar Plus",
+      "aliases": [
+        "Samachar Plus"
+      ],
+      "sources": [
+        {
+          "site": "jiotv.com",
+          "site_id": "804",
+          "name": "Samachar Plus"
+        }
+      ]
+    },
+    {
+      "id": "Star Sports 1 HD",
+      "aliases": [
+        "Star Sports 1 HD"
+      ],
+      "sources": [
+        {
+          "site": "tataplay.com",
+          "site_id": "6"
+        }
+      ]
+    },
+    {
+      "id": "Star Sports 1 HD Hindi",
+      "aliases": [
+        "Star Sports 1 HD Hindi"
+      ],
+      "sources": [
+        {
+          "site": "tataplay.com",
+          "site_id": "7"
+        }
+      ]
+    },
+    {
+      "id": "Star Sports 1 Hindi HD",
+      "aliases": [
+        "Star Sports 1 Hindi HD"
+      ],
+      "sources": [
+        {
+          "site": "tataplay.com",
+          "site_id": "24",
+          "name": "Star Sports 1 Hindi HD"
+        }
+      ]
+    },
+    {
+      "id": "Star Sports 2 HD",
+      "aliases": [
+        "Star Sports 2 HD"
+      ],
+      "sources": [
+        {
+          "site": "tataplay.com",
+          "site_id": "9"
+        }
+      ]
+    },
+    {
+      "id": "Star Sports 2 Hindi HD",
+      "aliases": [
+        "Star Sports 2 Hindi HD"
+      ],
+      "sources": [
+        {
+          "site": "tataplay.com",
+          "site_id": "1033",
+          "name": "Star Sports 2 Hindi HD"
+        }
+      ]
+    },
+    {
+      "id": "Star Sports Select 1 HD",
+      "aliases": [
+        "Star Sports Select 1 HD"
+      ],
+      "sources": [
+        {
+          "site": "tataplay.com",
+          "site_id": "10"
+        }
+      ]
+    },
+    {
+      "id": "Star Sports Select 2 HD",
+      "aliases": [
+        "Star Sports Select 2 HD"
+      ],
+      "sources": [
+        {
+          "site": "tataplay.com",
+          "site_id": "11"
+        }
+      ]
+    },
+    {
+      "id": "Star Sports 3 HD",
+      "aliases": [
+        "Star Sports 3 HD"
+      ],
+      "sources": [
+        {
+          "site": "tataplay.com",
+          "site_id": "664",
+          "name": "Star Sports 3"
+        }
+      ]
+    },
+    {
+      "id": "Sony Sports Ten 1 HD",
+      "aliases": [
+        "Sony Sports Ten 1 HD"
+      ],
+      "sources": [
+        {
+          "site": "jiotv.com",
+          "site_id": "162"
+        }
+      ]
+    },
+    {
+      "id": "Sony Ten 1 HD",
+      "aliases": [
+        "Sony Ten 1 HD"
+      ],
+      "sources": [
+        {
+          "site": "jiotv.com",
+          "site_id": "162"
+        }
+      ]
+    },
+    {
+      "id": "Sony Sports Ten 2 HD",
+      "aliases": [
+        "Sony Sports Ten 2 HD"
+      ],
+      "sources": [
+        {
+          "site": "jiotv.com",
+          "site_id": "891"
+        }
+      ]
+    },
+    {
+      "id": "Sony Ten 2 HD",
+      "aliases": [
+        "Sony Ten 2 HD"
+      ],
+      "sources": [
+        {
+          "site": "jiotv.com",
+          "site_id": "891"
+        }
+      ]
+    },
+    {
+      "id": "Sony Sports Ten 3 Hindi HD",
+      "aliases": [
+        "Sony Sports Ten 3 Hindi HD"
+      ],
+      "sources": [
+        {
+          "site": "jiotv.com",
+          "site_id": "892"
+        }
+      ]
+    },
+    {
+      "id": "Sony Ten 3 HD Hindi",
+      "aliases": [
+        "Sony Ten 3 HD Hindi"
+      ],
+      "sources": [
+        {
+          "site": "jiotv.com",
+          "site_id": "892"
+        }
+      ]
+    },
+    {
+      "id": "Sony Ten 3 Hindi",
+      "aliases": [
+        "Sony Ten 3 Hindi"
+      ],
+      "sources": [
+        {
+          "site": "jiotv.com",
+          "site_id": "524",
+          "name": "Sony Ten 3 Hindi"
+        }
+      ]
+    },
+    {
+      "id": "Sony Ten 5 HD",
+      "aliases": [
+        "Sony Ten 5 HD"
+      ],
+      "sources": [
+        {
+          "site": "jiotv.com",
+          "site_id": "155"
+        }
+      ]
+    },
+    {
+      "id": "Sony Ten 5",
+      "aliases": [
+        "Sony Ten 5"
+      ],
+      "sources": [
+        {
+          "site": "jiotv.com",
+          "site_id": "525",
+          "name": "Sony Ten 5"
+        }
+      ]
+    },
+    {
+      "id": "Eurosport HD",
+      "aliases": [
+        "Eurosport HD"
+      ],
+      "sources": [
+        {
+          "site": "tataplay.com",
+          "site_id": "812",
+          "name": "Eurosport HD"
+        }
+      ]
+    },
+    {
+      "id": "Eurosport",
+      "aliases": [
+        "Eurosport"
+      ],
+      "sources": [
+        {
+          "site": "tataplay.com",
+          "site_id": "693",
+          "name": "Eurosport"
+        }
+      ]
+    },
+    {
+      "id": "Sports18 1 HD",
+      "aliases": [
+        "Sports18 1 HD"
+      ],
+      "sources": [
+        {
+          "site": "jiotv.com",
+          "site_id": "1984",
+          "name": "Sports18 1 HD"
+        }
+      ]
+    },
+    {
+      "id": "Times Now HD",
+      "aliases": [
+        "Times Now HD"
+      ],
+      "sources": [
+        {
+          "site": "jiotv.com",
+          "site_id": "486"
+        }
+      ]
+    },
+    {
+      "id": "Star Sports 3",
+      "aliases": [
+        "Star Sports 3"
+      ],
+      "sources": [
+        {
+          "site": "tataplay.com",
+          "site_id": "664"
+        }
+      ]
+    },
+    {
+      "id": "EPIC TV",
+      "aliases": [
+        "EPIC TV"
+      ],
+      "sources": [
+        {
+          "site": "jiotv.com",
+          "site_id": "481"
+        }
+      ]
+    },
+    {
+      "id": "Travelxp HD Hindi",
+      "aliases": [
+        "Travelxp HD Hindi"
+      ],
+      "sources": [
+        {
+          "site": "jiotv.com",
+          "site_id": "562"
+        }
+      ]
+    },
+    {
+      "id": "Travelxp HD",
+      "aliases": [
+        "Travelxp HD"
+      ],
+      "sources": [
+        {
+          "site": "jiotv.com",
+          "site_id": "164"
+        }
+      ]
+    },
+    {
+      "id": "Discovery",
+      "aliases": [
+        "Discovery"
+      ],
+      "sources": [
+        {
+          "site": "jiotv.com",
+          "site_id": "242",
+          "name": "Discovery"
+        }
+      ]
+    },
+    {
+      "id": "Discovery HD World",
+      "aliases": [
+        "Discovery HD World"
+      ],
+      "sources": [
+        {
+          "site": "jiotv.com",
+          "site_id": "463"
+        }
+      ]
+    },
+    {
+      "id": "Discovery Science",
+      "aliases": [
+        "Discovery Science"
+      ],
+      "sources": [
+        {
+          "site": "tataplay.com",
+          "site_id": "113",
+          "name": "Discovery Science"
+        }
+      ]
+    },
+    {
+      "id": "Animal Planet HD World",
+      "aliases": [
+        "Animal Planet HD World"
+      ],
+      "sources": [
+        {
+          "site": "jiotv.com",
+          "site_id": "286",
+          "name": "Animal Planet HD World"
+        }
+      ]
+    },
+    {
+      "id": "National Geographic",
+      "aliases": [
+        "National Geographic"
+      ],
+      "sources": [
+        {
+          "site": "tataplay.com",
+          "site_id": "137",
+          "name": "National Geographic"
+        }
+      ]
+    },
+    {
+      "id": "Nat Geo Wild",
+      "aliases": [
+        "Nat Geo Wild"
+      ],
+      "sources": [
+        {
+          "site": "tataplay.com",
+          "site_id": "184",
+          "name": "Nat Geo Wild"
+        }
+      ]
+    },
+    {
+      "id": "History TV18 HD",
+      "aliases": [
+        "History TV18 HD"
+      ],
+      "sources": [
+        {
+          "site": "tataplay.com",
+          "site_id": "616",
+          "name": "History TV18 HD"
+        }
+      ]
+    },
+    {
+      "id": "History TV18",
+      "aliases": [
+        "History TV18"
+      ],
+      "sources": [
+        {
+          "site": "tataplay.com",
+          "site_id": "172",
+          "name": "History TV18"
+        }
+      ]
+    },
+    {
+      "id": "TLC HD",
+      "aliases": [
+        "TLC HD"
+      ],
+      "sources": [
+        {
+          "site": "tataplay.com",
+          "site_id": "480",
+          "name": "TLC HD"
+        }
+      ]
+    },
+    {
+      "id": "TLC",
+      "aliases": [
+        "TLC"
+      ],
+      "sources": [
+        {
+          "site": "tataplay.com",
+          "site_id": "135",
+          "name": "TLC"
+        }
+      ]
+    },
+    {
+      "id": "Food Food",
+      "aliases": [
+        "Food Food"
+      ],
+      "sources": [
+        {
+          "site": "jiotv.com",
+          "site_id": "561"
+        }
+      ]
+    },
+    {
+      "id": "Good Times",
+      "aliases": [
+        "Good Times"
+      ],
+      "sources": [
+        {
+          "site": "tataplay.com",
+          "site_id": "136",
+          "name": "GOOD TiMES"
+        }
+      ]
+    },
+    {
+      "id": "FYI TV18",
+      "aliases": [
+        "FYI TV18"
+      ],
+      "sources": [
+        {
+          "site": "jiotv.com",
+          "site_id": "475"
         }
       ]
     },
@@ -746,9 +1802,34 @@
       ],
       "sources": [
         {
-          "site": "tataplay.com",
-          "site_id": "179",
-          "name": "NDTV India"
+          "site": "jiotv.com",
+          "site_id": "467"
+        }
+      ]
+    },
+    {
+      "id": "MTV Beats HD",
+      "aliases": [
+        "MTV Beats HD"
+      ],
+      "sources": [
+        {
+          "site": "jiotv.com",
+          "site_id": "753",
+          "name": "MTV Beats HD"
+        }
+      ]
+    },
+    {
+      "id": "VH1",
+      "aliases": [
+        "VH1"
+      ],
+      "sources": [
+        {
+          "site": "jiotv.com",
+          "site_id": "1378",
+          "name": "VH1"
         }
       ]
     },
@@ -778,80 +1859,53 @@
       ]
     },
     {
-      "id": "Discovery",
+      "id": "B4U Movies",
       "aliases": [
-        "Discovery"
+        "B4U Movies"
       ],
       "sources": [
         {
           "site": "jiotv.com",
-          "site_id": "242",
-          "name": "Discovery"
+          "site_id": "182"
         }
       ]
     },
     {
-      "id": "History TV18 HD",
+      "id": "B4U Kadak",
       "aliases": [
-        "History TV18 HD"
+        "B4U Kadak"
       ],
       "sources": [
         {
           "site": "tataplay.com",
-          "site_id": "616",
-          "name": "History TV18 HD"
+          "site_id": "730",
+          "name": "B4U Kadak"
         }
       ]
     },
     {
-      "id": "National Geographic",
+      "id": "Mastiii",
       "aliases": [
-        "National Geographic"
+        "Mastiii"
       ],
       "sources": [
         {
-          "site": "tataplay.com",
-          "site_id": "137",
-          "name": "National Geographic"
+          "site": "jiotv.com",
+          "site_id": "584",
+          "name": "Mastiii"
         }
       ]
     },
     {
-      "id": "Nick",
+      "id": "Zoom",
       "aliases": [
-        "Nick"
+        "Zoom"
       ],
       "sources": [
         {
           "site": "tataplay.com",
-          "site_id": "138",
-          "name": "Nick"
-        }
-      ]
-    },
-    {
-      "id": "Cartoon Network",
-      "aliases": [
-        "Cartoon Network"
-      ],
-      "sources": [
-        {
-          "site": "tataplay.com",
-          "site_id": "238",
-          "name": "Cartoon Network"
-        }
-      ]
-    },
-    {
-      "id": "Pogo",
-      "aliases": [
-        "Pogo"
-      ],
-      "sources": [
-        {
-          "site": "tataplay.com",
-          "site_id": "239",
-          "name": "Pogo"
+          "site_id": "96",
+          "name": "Zoom"
         }
       ]
     },
@@ -862,9 +1916,21 @@
       ],
       "sources": [
         {
-          "site": "dishtv.in",
-          "site_id": "159012",
-          "name": "Disney Channel"
+          "site": "jiotv.com",
+          "site_id": "816"
+        }
+      ]
+    },
+    {
+      "id": "Disney Junior",
+      "aliases": [
+        "Disney Junior"
+      ],
+      "sources": [
+        {
+          "site": "tataplay.com",
+          "site_id": "144",
+          "name": "Disney Junior"
         }
       ]
     },
@@ -875,21 +1941,147 @@
       ],
       "sources": [
         {
-          "site": "tataplay.com",
-          "site_id": "345",
-          "name": "Hungama"
+          "site": "jiotv.com",
+          "site_id": "815"
         }
       ]
     },
     {
-      "id": "EPIC TV",
+      "id": "Pogo",
       "aliases": [
-        "EPIC TV"
+        "Pogo"
       ],
       "sources": [
         {
           "site": "jiotv.com",
-          "site_id": "481"
+          "site_id": "559"
+        }
+      ]
+    },
+    {
+      "id": "Cartoon Network",
+      "aliases": [
+        "Cartoon Network"
+      ],
+      "sources": [
+        {
+          "site": "jiotv.com",
+          "site_id": "816",
+          "name": "Cartoon Network Hindi"
+        }
+      ]
+    },
+    {
+      "id": "Nick",
+      "aliases": [
+        "Nick"
+      ],
+      "sources": [
+        {
+          "site": "jiotv.com",
+          "site_id": "545"
+        }
+      ]
+    },
+    {
+      "id": "Nick HD",
+      "aliases": [
+        "Nick HD"
+      ],
+      "sources": [
+        {
+          "site": "tataplay.com",
+          "site_id": "433",
+          "name": "Nick HD+"
+        }
+      ]
+    },
+    {
+      "id": "Sonic",
+      "aliases": [
+        "Sonic"
+      ],
+      "sources": [
+        {
+          "site": "tataplay.com",
+          "site_id": "127",
+          "name": "Sonic"
+        }
+      ]
+    },
+    {
+      "id": "Sony Yay",
+      "aliases": [
+        "Sony Yay"
+      ],
+      "sources": [
+        {
+          "site": "tataplay.com",
+          "site_id": "45",
+          "name": "SONY YAY!"
+        }
+      ]
+    },
+    {
+      "id": "Discovery Kids",
+      "aliases": [
+        "Discovery Kids"
+      ],
+      "sources": [
+        {
+          "site": "jiotv.com",
+          "site_id": "554"
+        }
+      ]
+    },
+    {
+      "id": "Chutti TV",
+      "aliases": [
+        "Chutti TV"
+      ],
+      "sources": [
+        {
+          "site": "tataplay.com",
+          "site_id": "302",
+          "name": "Chutti TV"
+        }
+      ]
+    },
+    {
+      "id": "Kochu TV",
+      "aliases": [
+        "Kochu TV"
+      ],
+      "sources": [
+        {
+          "site": "tataplay.com",
+          "site_id": "82",
+          "name": "Kochu TV"
+        }
+      ]
+    },
+    {
+      "id": "Duck TV",
+      "aliases": [
+        "Duck TV"
+      ],
+      "sources": [
+        {
+          "site": "tataplay.com",
+          "site_id": "147",
+          "name": "KTV"
+        }
+      ]
+    },
+    {
+      "id": "Nick Jr",
+      "aliases": [
+        "Nick Jr"
+      ],
+      "sources": [
+        {
+          "site": "jiotv.com",
+          "site_id": "544"
         }
       ]
     },
@@ -901,8 +2093,32 @@
       "sources": [
         {
           "site": "tataplay.com",
-          "site_id": "560",
-          "name": "STAR Movies HD"
+          "site_id": "560"
+        }
+      ]
+    },
+    {
+      "id": "Star Movies Select HD",
+      "aliases": [
+        "Star Movies Select HD"
+      ],
+      "sources": [
+        {
+          "site": "tataplay.com",
+          "site_id": "593",
+          "name": "STAR Movies Select HD"
+        }
+      ]
+    },
+    {
+      "id": "Movies Now HD",
+      "aliases": [
+        "Movies Now HD"
+      ],
+      "sources": [
+        {
+          "site": "tataplay.com",
+          "site_id": "562"
         }
       ]
     },
@@ -933,194 +2149,27 @@
       ]
     },
     {
-      "id": "Star Gold Thrills",
+      "id": "Romedy Now HD",
       "aliases": [
-        "Star Gold Thrills"
-      ],
-      "sources": [
-        {
-          "site": "tataplay.com",
-          "site_id": "494",
-          "name": "Star Gold Thrills"
-        }
-      ]
-    },
-    {
-      "id": "Sony Ten 1 HD",
-      "aliases": [
-        "Sony Ten 1 HD"
+        "Romedy Now HD"
       ],
       "sources": [
         {
           "site": "jiotv.com",
-          "site_id": "162"
+          "site_id": "1401",
+          "name": "Romedy Now"
         }
       ]
     },
     {
-      "id": "Sony Ten 2 HD",
+      "id": "Paras tv",
       "aliases": [
-        "Sony Ten 2 HD"
+        "Paras tv"
       ],
       "sources": [
         {
           "site": "jiotv.com",
-          "site_id": "891"
-        }
-      ]
-    },
-    {
-      "id": "Sony Ten 3 HD Hindi",
-      "aliases": [
-        "Sony Ten 3 HD Hindi"
-      ],
-      "sources": [
-        {
-          "site": "jiotv.com",
-          "site_id": "892"
-        }
-      ]
-    },
-    {
-      "id": "Star Sports 2 HD",
-      "aliases": [
-        "Star Sports 2 HD"
-      ],
-      "sources": [
-        {
-          "site": "tataplay.com",
-          "site_id": "235",
-          "name": "Star Sports 2 HD"
-        }
-      ]
-    },
-    {
-      "id": "DD Sports",
-      "aliases": [
-        "DD Sports"
-      ],
-      "sources": [
-        {
-          "site": "tataplay.com",
-          "site_id": "223",
-          "name": "DD Sports"
-        }
-      ]
-    },
-    {
-      "id": "Zee Business",
-      "aliases": [
-        "Zee Business"
-      ],
-      "sources": [
-        {
-          "site": "tataplay.com",
-          "site_id": "260",
-          "name": "Zee Business"
-        }
-      ]
-    },
-    {
-      "id": "CNBC Awaaz",
-      "aliases": [
-        "CNBC Awaaz"
-      ],
-      "sources": [
-        {
-          "site": "tataplay.com",
-          "site_id": "204",
-          "name": "CNBC Awaaz"
-        }
-      ]
-    },
-    {
-      "id": "CNBC TV18",
-      "aliases": [
-        "CNBC TV18"
-      ],
-      "sources": [
-        {
-          "site": "tataplay.com",
-          "site_id": "168",
-          "name": "CNBC TV18"
-        }
-      ]
-    },
-    {
-      "id": "ET Now",
-      "aliases": [
-        "ET Now"
-      ],
-      "sources": [
-        {
-          "site": "tataplay.com",
-          "site_id": "88",
-          "name": "ET NOW"
-        }
-      ]
-    },
-    {
-      "id": "India Today",
-      "aliases": [
-        "India Today"
-      ],
-      "sources": [
-        {
-          "site": "tataplay.com",
-          "site_id": "1",
-          "name": "INDIA TODAY"
-        }
-      ]
-    },
-    {
-      "id": "Wion",
-      "aliases": [
-        "Wion"
-      ],
-      "sources": [
-        {
-          "site": "tataplay.com",
-          "site_id": "255",
-          "name": "WION"
-        }
-      ]
-    },
-    {
-      "id": "TV9 Bharatvarsh",
-      "aliases": [
-        "TV9 Bharatvarsh"
-      ],
-      "sources": [
-        {
-          "site": "tataplay.com",
-          "site_id": "706",
-          "name": "TV9 Bharatvarsh"
-        }
-      ]
-    },
-    {
-      "id": "Republic TV",
-      "aliases": [
-        "Republic TV"
-      ],
-      "sources": [
-        {
-          "site": "tataplay.com",
-          "site_id": "72",
-          "name": "REPUBLIC TV"
-        }
-      ]
-    },
-    {
-      "id": "News Nation",
-      "aliases": [
-        "News Nation"
-      ],
-      "sources": [
-        {
-          "site": "tataplay.com",
-          "site_id": "36",
-          "name": "News Nation"
+          "site_id": "602"
         }
       ]
     },
@@ -1151,121 +2200,119 @@
       ]
     },
     {
-      "id": "Paras tv",
+      "id": "Aastha Bhajan",
       "aliases": [
-        "Paras tv"
+        "Aastha Bhajan"
+      ],
+      "sources": [
+        {
+          "site": "tataplay.com",
+          "site_id": "283",
+          "name": "Aastha Bhajan"
+        }
+      ]
+    },
+    {
+      "id": "Zee Zest",
+      "aliases": [
+        "Zee Zest"
+      ],
+      "sources": [
+        {
+          "site": "tataplay.com",
+          "site_id": "504",
+          "name": "Zee Zest"
+        }
+      ]
+    },
+    {
+      "id": "Zee Zest HD",
+      "aliases": [
+        "Zee Zest HD"
+      ],
+      "sources": [
+        {
+          "site": "tataplay.com",
+          "site_id": "504",
+          "name": "Zee Zest"
+        }
+      ]
+    },
+    {
+      "id": "Sadhna",
+      "aliases": [
+        "Sadhna"
       ],
       "sources": [
         {
           "site": "jiotv.com",
-          "site_id": "602"
+          "site_id": "593",
+          "name": "Sadhna"
         }
       ]
     },
     {
-      "id": "B4U Movies",
+      "id": "Ishwar TV",
       "aliases": [
-        "B4U Movies"
+        "Ishwar TV"
       ],
       "sources": [
         {
           "site": "tataplay.com",
-          "site_id": "7",
-          "name": "B4U Movies"
+          "site_id": "594",
+          "name": "Ishwar TV"
         }
       ]
     },
     {
-      "id": "Zee Classic HD",
+      "id": "Divya TV",
       "aliases": [
-        "Zee Classic HD"
+        "Divya TV"
       ],
       "sources": [
         {
           "site": "tataplay.com",
-          "site_id": "727",
-          "name": "Zee Classic"
+          "site_id": "351",
+          "name": "Divyavani TV"
         }
       ]
     },
     {
-      "id": "And Xplor HD",
+      "id": "Shalom",
       "aliases": [
-        "And Xplor HD"
-      ],
-      "sources": [
-        {
-          "site": "tataplay.com",
-          "site_id": "1183",
-          "name": "&Xplor HD"
-        }
-      ]
-    },
-    {
-      "id": "Colors",
-      "aliases": [
-        "Colors"
-      ],
-      "sources": [
-        {
-          "site": "tataplay.com",
-          "site_id": "543",
-          "name": "Colors"
-        }
-      ]
-    },
-    {
-      "id": "Sony SAB HD",
-      "aliases": [
-        "Sony SAB HD"
-      ],
-      "sources": [
-        {
-          "site": "tataplay.com",
-          "site_id": "48"
-        },
-        {
-          "site": "jiotv.com",
-          "site_id": "471"
-        }
-      ]
-    },
-    {
-      "id": "Sony Pal",
-      "aliases": [
-        "Sony Pal"
-      ],
-      "sources": [
-        {
-          "site": "tataplay.com",
-          "site_id": "554",
-          "name": "Sony Pal"
-        }
-      ]
-    },
-    {
-      "id": "Travelxp HD Hindi",
-      "aliases": [
-        "Travelxp HD Hindi"
+        "Shalom"
       ],
       "sources": [
         {
           "site": "jiotv.com",
-          "site_id": "562",
-          "name": "Travelxp HD Hindi"
+          "site_id": "606",
+          "name": "Shalom"
         }
       ]
     },
     {
-      "id": "Zee Bollywood",
+      "id": "God TV",
       "aliases": [
-        "Zee Bollywood"
+        "God TV"
       ],
       "sources": [
         {
           "site": "tataplay.com",
-          "site_id": "175",
-          "name": "Zee Bollywood"
+          "site_id": "356",
+          "name": "God TV"
+        }
+      ]
+    },
+    {
+      "id": "Peace of Mind",
+      "aliases": [
+        "Peace of Mind"
+      ],
+      "sources": [
+        {
+          "site": "tataplay.com",
+          "site_id": "420",
+          "name": "Peace of Mind"
         }
       ]
     },
@@ -1277,8 +2324,8 @@
       "sources": [
         {
           "site": "tataplay.com",
-          "site_id": "164",
-          "name": "STAR Gold"
+          "site_id": "696",
+          "name": "R Bharat"
         }
       ]
     },
@@ -1296,130 +2343,244 @@
       ]
     },
     {
-      "id": "Food Food",
+      "id": "Colors Infinity HD",
       "aliases": [
-        "Food Food"
+        "Colors Infinity HD"
       ],
       "sources": [
         {
           "site": "tataplay.com",
-          "site_id": "117",
-          "name": "Food Food"
+          "site_id": "187",
+          "name": "Colors Infinity HD"
         }
       ]
     },
     {
-      "id": "TLC HD",
+      "id": "National Geographic HD",
       "aliases": [
-        "TLC HD"
-      ],
-      "sources": [
-        {
-          "site": "tataplay.com",
-          "site_id": "480",
-          "name": "TLC HD"
-        }
-      ]
-    },
-    {
-      "id": "Animal Planet HD World",
-      "aliases": [
-        "Animal Planet HD World"
+        "National Geographic HD"
       ],
       "sources": [
         {
           "site": "jiotv.com",
-          "site_id": "286",
-          "name": "Animal Planet HD World"
+          "site_id": "248"
         }
       ]
     },
     {
-      "id": "Star Sports Select 1 HD",
+      "id": "Nickelodeon",
       "aliases": [
-        "Star Sports Select 1 HD"
+        "Nickelodeon"
       ],
       "sources": [
         {
           "site": "tataplay.com",
-          "site_id": "246",
-          "name": "Star Sports Select 1 HD"
+          "site_id": "138",
+          "name": "Nick"
         }
       ]
     },
     {
-      "id": "Star Sports 1 Hindi HD",
+      "id": "Cartoon Network Hindi",
       "aliases": [
-        "Star Sports 1 Hindi HD"
-      ],
-      "sources": [
-        {
-          "site": "tataplay.com",
-          "site_id": "24",
-          "name": "Star Sports 1 Hindi HD"
-        }
-      ]
-    },
-    {
-      "id": "Sony BBC Earth HD",
-      "aliases": [
-        "Sony BBC Earth HD"
-      ],
-      "sources": [
-        {
-          "site": "tataplay.com",
-          "site_id": "460",
-          "name": "SONY BBC Earth HD"
-        }
-      ]
-    },
-    {
-      "id": "Aaj Tak",
-      "aliases": [
-        "Aaj Tak"
+        "Cartoon Network Hindi"
       ],
       "sources": [
         {
           "site": "jiotv.com",
-          "site_id": "173"
+          "site_id": "816"
         }
       ]
     },
     {
-      "id": "DD National",
+      "id": "Pogo Hindi",
       "aliases": [
-        "DD National"
+        "Pogo Hindi"
       ],
       "sources": [
         {
           "site": "jiotv.com",
-          "site_id": "202"
+          "site_id": "559"
         }
       ]
     },
     {
-      "id": "ABP News",
+      "id": "MN+ HD",
       "aliases": [
-        "ABP News"
+        "MN+ HD"
       ],
       "sources": [
         {
           "site": "tataplay.com",
-          "site_id": "177",
-          "name": "ABP News"
+          "site_id": "210",
+          "name": "MN+ HD"
         }
       ]
     },
     {
-      "id": "News18 India",
+      "id": "Movies Now",
       "aliases": [
-        "News18 India"
+        "Movies Now"
       ],
       "sources": [
         {
           "site": "tataplay.com",
-          "site_id": "106",
-          "name": "News18 India"
+          "site_id": "173",
+          "name": "Movies Now"
+        }
+      ]
+    },
+    {
+      "id": "NDTV Good Times",
+      "aliases": [
+        "NDTV Good Times"
+      ],
+      "sources": [
+        {
+          "site": "jiotv.com",
+          "site_id": "259"
+        }
+      ]
+    },
+    {
+      "id": "Fashion TV",
+      "aliases": [
+        "Fashion TV"
+      ],
+      "sources": [
+        {
+          "site": "tataplay.com",
+          "site_id": "227",
+          "name": "Fashion TV"
+        }
+      ]
+    },
+    {
+      "id": "Travelxp",
+      "aliases": [
+        "Travelxp"
+      ],
+      "sources": [
+        {
+          "site": "tataplay.com",
+          "site_id": "55",
+          "name": "Travelxp"
+        }
+      ]
+    },
+    {
+      "id": "Wild Earth HD",
+      "aliases": [
+        "Wild Earth HD"
+      ],
+      "sources": [
+        {
+          "site": "dishtv.in",
+          "site_id": "142401",
+          "name": "RT"
+        }
+      ]
+    },
+    {
+      "id": "Unite8 Sports 2 HD",
+      "aliases": [
+        "Unite8 Sports 2 HD"
+      ],
+      "sources": [
+        {
+          "site": "tataplay.com",
+          "site_id": "506",
+          "name": "Unite8 Sports 2 HD"
+        }
+      ]
+    },
+    {
+      "id": "1Sports HD",
+      "aliases": [
+        "1Sports HD"
+      ],
+      "sources": [
+        {
+          "site": "tataplay.com",
+          "site_id": "502",
+          "name": "Unite8 Sports 1 HD"
+        }
+      ]
+    },
+    {
+      "id": "1 Sports",
+      "aliases": [
+        "1 Sports"
+      ],
+      "sources": [
+        {
+          "site": "jiotv.com",
+          "site_id": "1985",
+          "name": "Sports18 1"
+        }
+      ]
+    },
+    {
+      "id": "News18 Gujarati",
+      "aliases": [
+        "News18 Gujarati"
+      ],
+      "sources": [
+        {
+          "site": "jiotv.com",
+          "site_id": "620"
+        }
+      ]
+    },
+    {
+      "id": "Sansad TV HD",
+      "aliases": [
+        "Sansad TV HD"
+      ],
+      "sources": [
+        {
+          "site": "jiotv.com",
+          "site_id": "520",
+          "name": "Sansad TV HD"
+        }
+      ]
+    },
+    {
+      "id": "Sansad TV",
+      "aliases": [
+        "Sansad TV"
+      ],
+      "sources": [
+        {
+          "site": "jiotv.com",
+          "site_id": "522",
+          "name": "Sansad TV"
+        }
+      ]
+    },
+    {
+      "id": "News18 Rajasthan",
+      "aliases": [
+        "News18 Rajasthan"
+      ],
+      "sources": [
+        {
+          "site": "tataplay.com",
+          "site_id": "205",
+          "name": "News18 Rajasthan"
+        }
+      ]
+    },
+    {
+      "id": "News18 UP",
+      "aliases": [
+        "News18 UP"
+      ],
+      "sources": [
+        {
+          "site": "jiotv.com",
+          "site_id": "530",
+          "name": "News18 UP"
         }
       ]
     }
