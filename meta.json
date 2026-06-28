@@ -1,7 +1,91 @@
 {
-  "generated_at": "2026-06-28T12:56:13.520Z",
+  "generated_at": "2026-06-28T13:41:33.603Z",
   "window_hours": 24,
-  "channels": 106,
-  "programmes": 780,
-  "lang": "hi"
+  "timezone": "+0530",
+  "channels": 200,
+  "channels_with_programmes": 144,
+  "programmes": 1125,
+  "lang": "hi",
+  "top_channels": [
+    {
+      "id": "Sony Yay",
+      "count": 24
+    },
+    {
+      "id": "Star Plus",
+      "count": 20
+    },
+    {
+      "id": "Star Plus HD",
+      "count": 20
+    },
+    {
+      "id": "Zee TV",
+      "count": 20
+    },
+    {
+      "id": "Zee TV HD",
+      "count": 20
+    },
+    {
+      "id": "Colors HD",
+      "count": 15
+    },
+    {
+      "id": "Aastha",
+      "count": 15
+    },
+    {
+      "id": "Sanskar",
+      "count": 15
+    },
+    {
+      "id": "Sony Pal",
+      "count": 15
+    },
+    {
+      "id": "Discovery Kids",
+      "count": 15
+    },
+    {
+      "id": "ABP Majha",
+      "count": 14
+    },
+    {
+      "id": "Sony Ten 5 HD",
+      "count": 14
+    },
+    {
+      "id": "Star Bharat HD",
+      "count": 12
+    },
+    {
+      "id": "Star Bharat",
+      "count": 12
+    },
+    {
+      "id": "9XM",
+      "count": 12
+    },
+    {
+      "id": "Zee Business",
+      "count": 12
+    },
+    {
+      "id": "Sudarshan News",
+      "count": 12
+    },
+    {
+      "id": "FYI TV18",
+      "count": 12
+    },
+    {
+      "id": "CNBC Bajar",
+      "count": 11
+    },
+    {
+      "id": "Star Sports Select 2 HD",
+      "count": 11
+    }
+  ]
 }
