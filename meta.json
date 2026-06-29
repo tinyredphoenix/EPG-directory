@@ -1,91 +1,91 @@
 {
-  "generated_at": "2026-06-28T19:15:05.071Z",
+  "generated_at": "2026-06-29T05:10:07.888Z",
   "window_hours": 36,
   "timezone": "+0530",
   "channels": 251,
   "channels_with_programmes": 198,
-  "programmes": 6499,
+  "programmes": 10019,
   "lang": "hi",
   "top_channels": [
     {
+      "id": "Super Hungama",
+      "count": 154
+    },
+    {
       "id": "Sony Yay",
-      "count": 112
+      "count": 153
+    },
+    {
+      "id": "Zee TV",
+      "count": 122
+    },
+    {
+      "id": "Zee TV HD",
+      "count": 113
     },
     {
       "id": "TLC HD World",
-      "count": 74
+      "count": 112
     },
     {
       "id": "Star Sports 3 HD",
-      "count": 63
+      "count": 96
     },
     {
       "id": "Star Sports 3",
-      "count": 63
-    },
-    {
-      "id": "Sony Pal",
-      "count": 62
-    },
-    {
-      "id": "Discovery Kids",
-      "count": 62
+      "count": 96
     },
     {
       "id": "Star Sports 1 Hindi HD",
-      "count": 59
+      "count": 93
     },
     {
       "id": "Star Sports 2 Hindi HD",
-      "count": 59
+      "count": 93
     },
     {
       "id": "Paras tv",
-      "count": 58
+      "count": 91
     },
     {
       "id": "Paras TV",
-      "count": 58
+      "count": 91
     },
     {
       "id": "Paras Gold One",
-      "count": 58
+      "count": 91
     },
     {
-      "id": "TV9 Bharatvarsh",
-      "count": 56
+      "id": "Sony Pal",
+      "count": 91
     },
     {
-      "id": "EPIC TV",
-      "count": 55
-    },
-    {
-      "id": "EPIC",
-      "count": 55
-    },
-    {
-      "id": "Epic TV",
-      "count": 55
-    },
-    {
-      "id": "CNBC Awaaz",
-      "count": 55
-    },
-    {
-      "id": "Zee News",
-      "count": 54
-    },
-    {
-      "id": "Zee Zest",
-      "count": 54
-    },
-    {
-      "id": "Zee Zest HD",
-      "count": 54
+      "id": "Discovery Kids",
+      "count": 91
     },
     {
       "id": "ABP Majha",
-      "count": 53
+      "count": 89
+    },
+    {
+      "id": "Sony Ten 5 HD",
+      "count": 89
+    },
+    {
+      "id": "Zee News",
+      "count": 88
+    },
+    {
+      "id": "Zee Zest",
+      "count": 88
+    },
+    {
+      "id": "Zee Zest HD",
+      "count": 88
+    },
+    {
+      "id": "TV9 Bharatvarsh",
+      "count": 87
     }
   ]
 }
