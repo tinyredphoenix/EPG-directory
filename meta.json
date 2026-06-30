@@ -1,91 +1,91 @@
 {
-  "generated_at": "2026-06-29T21:37:47.259Z",
+  "generated_at": "2026-06-30T04:42:39.001Z",
   "window_hours": 36,
   "timezone": "+0530",
   "channels": 251,
   "channels_with_programmes": 198,
-  "programmes": 6038,
+  "programmes": 10103,
   "lang": "hi",
   "top_channels": [
     {
-      "id": "Super Hungama",
-      "count": 111
-    },
-    {
       "id": "Sony Yay",
-      "count": 99
+      "count": 165
     },
     {
-      "id": "Colors HD",
-      "count": 71
+      "id": "Super Hungama",
+      "count": 154
+    },
+    {
+      "id": "Zee TV HD",
+      "count": 115
+    },
+    {
+      "id": "Zee TV",
+      "count": 113
     },
     {
       "id": "TLC HD World",
-      "count": 65
-    },
-    {
-      "id": "Star Sports 3 HD",
-      "count": 58
-    },
-    {
-      "id": "Star Sports 3",
-      "count": 58
+      "count": 113
     },
     {
       "id": "Star Sports 1 Hindi HD",
-      "count": 57
+      "count": 103
     },
     {
-      "id": "Zee News",
-      "count": 57
+      "id": "Star Sports 3 HD",
+      "count": 97
     },
     {
-      "id": "Zee Zest",
-      "count": 57
-    },
-    {
-      "id": "Zee Zest HD",
-      "count": 57
-    },
-    {
-      "id": "Star Sports 2 Hindi HD",
-      "count": 56
-    },
-    {
-      "id": "Paras tv",
-      "count": 53
-    },
-    {
-      "id": "Paras TV",
-      "count": 53
-    },
-    {
-      "id": "Paras Gold One",
-      "count": 53
-    },
-    {
-      "id": "ABP Majha",
-      "count": 51
-    },
-    {
-      "id": "Sony Ten 5 HD",
-      "count": 51
-    },
-    {
-      "id": "TV9 Bharatvarsh",
-      "count": 51
-    },
-    {
-      "id": "Sony Pal",
-      "count": 51
-    },
-    {
-      "id": "Discovery Kids",
-      "count": 51
+      "id": "Star Sports 3",
+      "count": 97
     },
     {
       "id": "EPIC TV",
-      "count": 49
+      "count": 90
+    },
+    {
+      "id": "EPIC",
+      "count": 90
+    },
+    {
+      "id": "Epic TV",
+      "count": 90
+    },
+    {
+      "id": "Zee News",
+      "count": 90
+    },
+    {
+      "id": "Zee Zest",
+      "count": 90
+    },
+    {
+      "id": "Zee Zest HD",
+      "count": 90
+    },
+    {
+      "id": "Sony Pal",
+      "count": 90
+    },
+    {
+      "id": "Discovery Kids",
+      "count": 90
+    },
+    {
+      "id": "ABP Majha",
+      "count": 88
+    },
+    {
+      "id": "Sony Ten 5 HD",
+      "count": 88
+    },
+    {
+      "id": "TV9 Bharatvarsh",
+      "count": 88
+    },
+    {
+      "id": "Paras tv",
+      "count": 85
     }
   ]
 }
